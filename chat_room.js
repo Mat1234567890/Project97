@@ -22,7 +22,7 @@ function getData() {
                   Room_names = childKey;
                   //Start code
                   console.log("Room Name: " + Room_names);
-                  row = "<div class='room_name id='+room_names+' onclick='redirectToRoomName(this.id)'> #" + Room_names + " </div> <hr>";
+                  row = "<div class='room_name id='+room_names+' onclick='addRoom()'> #" + Room_names + " </div> <hr>";
                   document.getElementById("output").innerHTML += row;
                   //End code
             });
